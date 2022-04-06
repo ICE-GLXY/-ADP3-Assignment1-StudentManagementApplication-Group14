@@ -1,4 +1,4 @@
-package entity;
+package za.ac.cput.entity;
 
 public class verification
 {
