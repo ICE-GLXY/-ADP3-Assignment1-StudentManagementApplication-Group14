@@ -1,3 +1,4 @@
+package za.ac.cput.StudentManagementSystem;
 
 /**
  * Hello world!
