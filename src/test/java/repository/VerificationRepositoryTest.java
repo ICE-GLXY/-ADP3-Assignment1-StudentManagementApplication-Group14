@@ -1,7 +1,7 @@
-
+package repository;
 /*
  * Mogamad Taariq Phillips - 220166153
- * VerificationRepositoryTest.java
+ * repository.VerificationRepositoryTest.java
  * Testing functions of the VerificationRepository Class
  * 07-04-2022
  */
