@@ -8,14 +8,20 @@ public class VerificationFactory {
     public static Verification createVerification(String username, String emailField, String passwordField) {
         if (Helper.isEmpty(username) || Helper.isEmpty(emailField) || Helper.isEmpty(passwordField)) {
             return null;
+
         }
-        Verification newVerification = (Verification) new Verification
+
+        if(!Helper.isValidEmail(emailField)){
+            return null;
+        }
+
+        return new Verification
                     .Builder()
                     .setUsername(username)
                     .setEmailField(emailField)
                     .setPasswordField(passwordField)
                     .build();
 
-            return newVerification;
+
         }
 }

@@ -7,7 +7,7 @@ public class Database
     private String Password;
     private String passwordConfirmation;
     private int grade;
-    private boolean userType;
+    private String userType;
 
     //private builder constructor
     private Database(Builder builder) {
@@ -50,13 +50,15 @@ public class Database
         this.grade = grade;
     }
 
-    public boolean isUserType() {
+
+    public String getUserType() {
         return userType;
     }
 
-    public void setUserType(boolean userType) {
+    public void setUserType(String userType) {
         this.userType = userType;
     }
+
 
     @Override
     public String toString() {
@@ -65,7 +67,7 @@ public class Database
                 ", Password='" + Password + '\'' +
                 ", passwordConfirmation='" + passwordConfirmation + '\'' +
                 ", grade=" + grade +
-                ", userType=" + userType +
+                ", userType='" + userType + '\'' +
                 '}';
     }
 
@@ -74,7 +76,7 @@ public class Database
         private String Password;
         private String passwordConfirmation;
         private int grade;
-        private boolean userType;
+        private String userType;
 
 
         public Builder setemailAddress(String emailAddress) {
@@ -97,7 +99,7 @@ public class Database
             return this;
         }
 
-        public Builder setuserType(boolean userType) {
+        public Builder setuserType(String userType) {
             this.userType = userType;
             return this;
         }

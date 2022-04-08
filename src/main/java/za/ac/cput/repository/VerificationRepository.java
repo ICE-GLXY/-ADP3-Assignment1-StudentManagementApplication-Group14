@@ -1,5 +1,6 @@
 package za.ac.cput.repository;
 
+import za.ac.cput.entity.Database;
 import za.ac.cput.entity.Verification;
 
 import java.util.HashSet;
@@ -8,10 +9,10 @@ import java.util.Set;
 public class VerificationRepository implements IVerification
 {
     private static VerificationRepository verificationRepository = null;
-    private Set<Verification> verificationDB;
+    private Set<Verification> verificationDB ;
 
     private VerificationRepository(){
-        verificationDB = new HashSet<Verification>();
+        verificationDB = new HashSet<>();
 
     }
 
@@ -24,7 +25,6 @@ public class VerificationRepository implements IVerification
         return verificationRepository;
     }
 
-    //adds a new customer to the database
     @Override
     public Verification create(Verification createVerification) {
         boolean success = verificationDB.add(createVerification);
@@ -37,17 +37,15 @@ public class VerificationRepository implements IVerification
 
     @Override
     public Verification read(String username) {
-        for(Verification verification: verificationDB){
-            if(verification.getUsername()== username){
-                return verification;
+        for(Verification newVerification: verificationDB){
+            if(newVerification.getUsername().equals(username)){
+                return newVerification;
             }
-
         }
         return null;
     }
 
 
-    //Updates customer data
     @Override
     public Verification update(Verification updateVerification) {
         Verification oldVerification = read(updateVerification.getUsername());
