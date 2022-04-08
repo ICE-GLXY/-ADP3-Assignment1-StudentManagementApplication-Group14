@@ -1,5 +1,12 @@
 package za.ac.cput.repository;
 
+/*
+ * Mogamad Taariq Phillips - 220166153
+ * VerificationRepository.java
+ * Class created for the CRUD functions of the VerificationRepository Class
+ * 07-04-2022
+ */
+
 import za.ac.cput.entity.Database;
 
 import java.util.HashSet;
@@ -11,7 +18,7 @@ public class DatabaseRepository implements IDatabase
     private static Set<Database> databaseDB = null;
 
     private DatabaseRepository(){
-        databaseDB = new HashSet<Database>();
+        databaseDB = new HashSet<>();
     }
 
     public static DatabaseRepository getInstance(){

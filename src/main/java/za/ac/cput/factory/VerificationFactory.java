@@ -1,5 +1,12 @@
 package za.ac.cput.factory;
 
+/*
+ * Mogamad Taariq Phillips - 220166153
+ * VetificationFactory.java
+ * Creation of object for the Verification entity
+ * 07-04-2022
+ */
+
 import za.ac.cput.entity.Verification;
 import za.ac.cput.util.Helper;
 

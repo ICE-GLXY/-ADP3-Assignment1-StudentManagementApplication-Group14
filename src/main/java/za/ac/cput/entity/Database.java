@@ -1,5 +1,11 @@
 package za.ac.cput.entity;
 
+/*
+ * Mogamad Taariq Phillips - 220166153
+ * Database.java
+ * Creation of attributes for the Database entity
+ * 07-04-2022
+ */
 
 public class Database
 {

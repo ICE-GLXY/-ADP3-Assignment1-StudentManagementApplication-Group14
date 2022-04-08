@@ -1,5 +1,12 @@
 package za.ac.cput.entity;
 
+/*
+ * Mogamad Taariq Phillips - 220166153
+ * Verification.java
+ * Creation of attributes for the Verification entity
+ * 07-04-2022
+ */
+
 public class Verification {
     private String username;
     private String emailField;

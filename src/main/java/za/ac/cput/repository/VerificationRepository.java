@@ -1,8 +1,13 @@
 package za.ac.cput.repository;
 
-import za.ac.cput.entity.Database;
-import za.ac.cput.entity.Verification;
+/*
+ * Mogamad Taariq Phillips - 220166153
+ * VerificationRepository.java
+ * Class created for the CRUD functions of the VerificationRepository Class
+ * 07-04-2022
+ */
 
+import za.ac.cput.entity.Verification;
 import java.util.HashSet;
 import java.util.Set;
 
