@@ -1,4 +1,3 @@
-package za.ac.cput.repository;
 /*
  * Abdul Aleem Chilwan - 220108447
  * SchoolRepositoryTest.java
@@ -12,6 +11,7 @@ import za.ac.cput.entity.Parent;
 import za.ac.cput.entity.School;
 import za.ac.cput.factory.ParentFactory;
 import za.ac.cput.factory.SchoolFactory;
+import za.ac.cput.repository.SchoolRepository;
 
 import static org.junit.jupiter.api.Assertions.*;
 @TestMethodOrder(MethodOrderer.MethodName.class)
@@ -19,6 +19,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class SchoolRepositoryTest {
 
     private static SchoolRepository repository = SchoolRepository.getRepository(); //We cant add the new
+
     //keyword because it is a singleton, therefore we need to create it this way
     private static School school = SchoolFactory.createSchool("Cape Town High School");
 

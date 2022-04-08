@@ -1,4 +1,4 @@
-package za.ac.cput.repository;
+
 /*
  * Abdul Aleem Chilwan - 220108447
  * ParentRepositoryTest.java
@@ -10,6 +10,7 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.TestMethodOrder;
 import za.ac.cput.entity.Parent;
 import za.ac.cput.factory.ParentFactory;
+import za.ac.cput.repository.ParentRepository;
 
 import static org.junit.jupiter.api.Assertions.*;
 @TestMethodOrder(MethodOrderer.MethodName.class) //This allows the methods to run a,b,c,d,e (because you named it in that order below)
