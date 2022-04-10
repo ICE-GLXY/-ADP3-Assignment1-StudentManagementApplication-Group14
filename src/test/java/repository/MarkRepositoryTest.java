@@ -1,4 +1,4 @@
-package za.ac.cput.repository;
+package repository;
 /*
  * Author Lelihle Gazi - (214258041)
  * MarkRepositoryTest.java
@@ -8,6 +8,7 @@ package za.ac.cput.repository;
 import org.junit.jupiter.api.Test;
 import za.ac.cput.entity.Mark;
 import za.ac.cput.factory.MarkFactory;
+import za.ac.cput.repository.MarkRepository;
 
 import static org.junit.jupiter.api.Assertions.*;
 

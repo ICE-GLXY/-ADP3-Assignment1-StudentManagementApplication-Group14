@@ -1,25 +1,29 @@
-package za.ac.cput.factory;
+package factory;
 /*
  * Author Lelihle Gazi - (214258041)
- * TeacherFactoryTest.java
- * Created Teacher Factory Test class
+ * MarkFactoryTest.java
+ * Created Mark Factory Test class
  * 08-04-2022
  */
+
 import org.junit.jupiter.api.MethodOrderer;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.TestMethodOrder;
-import za.ac.cput.entity.Teacher;
+import za.ac.cput.entity.Mark;
+import za.ac.cput.factory.MarkFactory;
 
 import static org.junit.jupiter.api.Assertions.*;
 @TestMethodOrder(MethodOrderer.MethodName.class)
 
-public class TeacherFactoryTest {
+public class MarkFactoryTest {
+
     @Test
     void a_create() {
-        Teacher teacher = TeacherFactory.createTeacher("1","Gazi",
-                "G1404","gazi@gmail.com");
+        Mark mark = MarkFactory.createMark("1","Lee Mark",
+                "214258041","ADP3",85.5f);
 
-        assertNotNull(teacher);
+        assertNotNull(mark);
 
     }
 }
+

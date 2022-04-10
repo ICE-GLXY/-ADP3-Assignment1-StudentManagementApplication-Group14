@@ -1,4 +1,4 @@
-package za.ac.cput.repository;
+package repository;
 /*
  * Author Lelihle Gazi - (214258041)
  * TeacherRepositoryTest.java
@@ -8,6 +8,7 @@ package za.ac.cput.repository;
 import org.junit.jupiter.api.Test;
 import za.ac.cput.entity.Teacher;
 import za.ac.cput.factory.TeacherFactory;
+import za.ac.cput.repository.TeacherRepository;
 
 import static org.junit.jupiter.api.Assertions.*;
 
