@@ -1,6 +1,6 @@
-/*
+package repository;/*
  * Abdul Aleem Chilwan - 220108447
- * SchoolRepositoryTest.java
+ * repository.SchoolRepositoryTest.java
  * Class created for the Testing functions of the SchoolRepository Class
  * 07-04-2022
  */
