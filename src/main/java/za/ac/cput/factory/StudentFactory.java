@@ -1,6 +1,6 @@
-package src.main.java.za.ac.cput.factory;
+package za.ac.cput.factory;
 
-import src.main.java.za.ac.cput.entity.Student;
+import za.ac.cput.entity.Student;
 import za.ac.cput.util.Helper;
 
 public class StudentFactory{

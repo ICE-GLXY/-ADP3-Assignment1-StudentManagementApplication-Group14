@@ -3,9 +3,9 @@ package repository;
 import org.junit.jupiter.api.MethodOrderer;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.TestMethodOrder;
-import src.main.java.za.ac.cput.entity.Subject;
-import src.main.java.za.ac.cput.factory.SubjectFactory;
-import src.main.java.za.ac.cput.repository.SubjectRepository;
+import za.ac.cput.entity.Subject;
+import za.ac.cput.factory.SubjectFactory;
+import za.ac.cput.repository.SubjectRepository;
 
 import static org.junit.jupiter.api.Assertions.*;
 

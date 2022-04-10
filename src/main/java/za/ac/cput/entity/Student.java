@@ -1,4 +1,4 @@
-package src.main.java.za.ac.cput.entity;
+package za.ac.cput.entity;
 
 /* Student.java
 Entity for the Student

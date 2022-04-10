@@ -1,6 +1,6 @@
-package src.main.java.za.ac.cput.factory;
+package za.ac.cput.factory;
 
-import src.main.java.za.ac.cput.entity.Subject;
+import za.ac.cput.entity.Subject;
 
 public class SubjectFactory {
 

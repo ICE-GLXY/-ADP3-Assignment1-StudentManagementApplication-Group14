@@ -1,8 +1,8 @@
 package factory;
 
 import org.junit.jupiter.api.Test;
-import src.main.java.za.ac.cput.entity.Subject;
-import src.main.java.za.ac.cput.factory.SubjectFactory;
+import za.ac.cput.entity.Subject;
+import za.ac.cput.factory.SubjectFactory;
 
 import static org.junit.jupiter.api.Assertions.*;
 

@@ -1,6 +1,6 @@
-package src.main.java.za.ac.cput.repository;
+package za.ac.cput.repository;
 
-import src.main.java.za.ac.cput.entity.Student;
+import za.ac.cput.entity.Student;
 
 import java.util.HashSet;
 import java.util.Set;
