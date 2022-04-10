@@ -1,5 +1,10 @@
 package factory;
 
+/* SubjectFactoryTest.java
+Entity for the Student
+Author: Chante Lewis: 216118395
+Date: 07 April 2022
+ */
 import org.junit.jupiter.api.Test;
 import za.ac.cput.entity.Subject;
 import za.ac.cput.factory.SubjectFactory;

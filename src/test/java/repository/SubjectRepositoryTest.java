@@ -1,5 +1,10 @@
 package repository;
 
+/* SubjectRepositoryTest.java
+Entity for the Student
+Author: Chante Lewis: 216118395
+Date: 07 April 2022
+ */
 import org.junit.jupiter.api.MethodOrderer;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.TestMethodOrder;
