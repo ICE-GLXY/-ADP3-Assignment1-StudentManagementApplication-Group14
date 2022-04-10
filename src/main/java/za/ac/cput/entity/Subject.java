@@ -2,7 +2,7 @@ package za.ac.cput.entity;
 
 /* Subject.java
 Entity for the Subject
-Author: Chante Lewis (216118395)
+Author: Chante Lewis : 216118395
 Date: 07 April 2022
  */
 

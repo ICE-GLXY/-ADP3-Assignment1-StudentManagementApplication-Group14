@@ -2,7 +2,7 @@ package za.ac.cput.entity;
 
 /* Student.java
 Entity for the Student
-Author: Chante Lewis (216118395)
+Author: Chante Lewis: 216118395
 Date: 07 April 2022
  */
 public class Student {

@@ -1,5 +1,10 @@
 package za.ac.cput.repository;
 
+/* StudentRepository.java
+Entity for the Student
+Author: Chante Lewis: 216118395
+Date: 07 April 2022
+ */
 import za.ac.cput.entity.Student;
 
 import java.util.HashSet;
