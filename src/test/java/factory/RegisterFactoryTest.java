@@ -1,6 +1,7 @@
-package za.ac.cput.factory;
+package factory;
 
 import za.ac.cput.entity.Register;
+import za.ac.cput.factory.RegisterFactory;
 
 import static org.junit.jupiter.api.Assertions.*;
 
