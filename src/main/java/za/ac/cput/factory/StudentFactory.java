@@ -1,6 +1,11 @@
-package src.main.java.za.ac.cput.factory;
+package za.ac.cput.factory;
 
-import src.main.java.za.ac.cput.entity.Student;
+/* StudentFactory.java
+Entity for the Student
+Author: Chante Lewis (216118395)
+Date: 07 April 2022
+ */
+import za.ac.cput.entity.Student;
 import za.ac.cput.util.Helper;
 
 public class StudentFactory{

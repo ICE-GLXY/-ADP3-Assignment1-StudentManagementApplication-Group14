@@ -1,11 +1,16 @@
-package src.main.java.za.ac.cput.test.repository;
+package za.ac.cput.test.repository;
 
+/* SubjectRepositoryTest.java
+Entity for the Student
+Author: Chante Lewis (216118395)
+Date: 07 April 2022
+ */
 import org.junit.jupiter.api.MethodOrderer;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.TestMethodOrder;
-import src.main.java.za.ac.cput.entity.Subject;
-import src.main.java.za.ac.cput.factory.SubjectFactory;
-import src.main.java.za.ac.cput.repository.SubjectRepository;
+import za.ac.cput.entity.Subject;
+import za.ac.cput.factory.SubjectFactory;
+import za.ac.cput.repository.SubjectRepository;
 
 import static org.junit.jupiter.api.Assertions.*;
 

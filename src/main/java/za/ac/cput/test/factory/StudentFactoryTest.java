@@ -1,8 +1,14 @@
-package src.main.java.za.ac.cput.test.factory;
+package za.ac.cput.test.factory;
 
+/* StudentFactoryTest.java
+Entity for the Student
+Author: Chante Lewis (216118395)
+Date: 07 April 2022
+ */
 import org.junit.jupiter.api.Test;
-import src.main.java.za.ac.cput.entity.Student;
-import src.main.java.za.ac.cput.factory.StudentFactory;
+import za.ac.cput.entity.Student;
+import za.ac.cput.factory.StudentFactory;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 class StudentFactoryTest {
