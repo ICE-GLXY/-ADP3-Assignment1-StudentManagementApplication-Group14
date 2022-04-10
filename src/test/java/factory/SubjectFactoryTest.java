@@ -1,4 +1,4 @@
-package src.main.java.za.ac.cput.test.factory;
+package factory;
 
 import org.junit.jupiter.api.Test;
 import src.main.java.za.ac.cput.entity.Subject;

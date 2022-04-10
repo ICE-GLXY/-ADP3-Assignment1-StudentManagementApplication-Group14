@@ -3,11 +3,12 @@ Author:Moegammad Tasreeq Adams (216173027)
 ADP Assignment 1
 Date: April 2022
  */
-package za.ac.cput.repository;
+package repository;
 
 import org.junit.jupiter.api.Test;
 import za.ac.cput.entity.Login;
 import za.ac.cput.factory.LoginFactory;
+import za.ac.cput.repository.LoginRepository;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;

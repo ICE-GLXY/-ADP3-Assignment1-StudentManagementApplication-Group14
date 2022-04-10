@@ -1,4 +1,4 @@
-package za.ac.cput.repository;
+package repository;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.MethodOrderer;
@@ -6,6 +6,7 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.TestMethodOrder;
 import za.ac.cput.entity.Register;
 import za.ac.cput.factory.RegisterFactory;
+import za.ac.cput.repository.RegisterRepository;
 
 import static org.junit.jupiter.api.Assertions.*;
 @TestMethodOrder(MethodOrderer.MethodName.class)
@@ -46,7 +47,7 @@ class RegisterRepositoryTest {
                 .setParent("NO")
                 .setStudent("Yes")
                 .build();
-        Assertions.assertNotNull(repository.update(updated));
+        assertNotNull(repository.update(updated));
         System.out.println("Updated:" + updated);
     }
     @Test
